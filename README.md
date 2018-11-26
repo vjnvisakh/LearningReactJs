@@ -49,3 +49,37 @@ Follow these steps to set up React on your system.
 </ul>
 
 
+
+<b>Open App.js</b>
+
+<b style='color:red'>Delete Everything in it.</b>
+
+Then start writing this.
+
+<code>import React, { Component } from 'react';</code>
+
+<b>React</b> is module(ES6 part), which is what makes render() and other functions recognizable.
+<b>Component</b> is a module which allows to extend or which allows to create a new component in React.
+
+<code>
+class App extends Component
+{
+    render()
+    {
+        return (
+
+        );
+    }
+}
+
+export default App;
+
+</code>
+
+This is what a component should be.
+
+1. It should extend Component class.
+2. It should have a render method.
+3. It should return something. Though this is not mandatory. We will see later on.
+4. export default is what makes your component available to globally.
+
