@@ -1,0 +1,22 @@
+{
+  "name": "learningreactjs",
+  "version": "1.0.0",
+  "description": "Learning React and Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjnvisakh/LearningReactJs.git"
+  },
+  "author": "Visakh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vjnvisakh/LearningReactJs/issues"
+  },
+  "homepage": "https://github.com/vjnvisakh/LearningReactJs#readme",
+  "dependencies": {
+    "create-react-app": "^2.1.1"
+  }
+}
