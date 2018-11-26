@@ -4,6 +4,10 @@ Learning React and Redux
 ReactJs is a <b>Javascript library</b> that is concerned with making user interfaces.
 React makes it easy to make <b>Components</b> which are nothing but reusable html blocks.
 
+<h2>History of React</h2>
+
+React was developed by Jordan Walke, a software Engineer at Facebook. He was inspired by XHP, which is an HTML component framework for PHP.
+
 <h2>Virtual DOM</h2>
 
 The browser follows something called a Document Object Model(DOM) to update the elements or to form an HTML page.
@@ -21,3 +25,8 @@ The virtual DOM is a in-memory DOM which the browser uses to update the componet
 Everytime an update is made to a component, React compares the old Virtual DOM with new Virtual DOM and identifies the minimum changes to be made to the actual DOM and does it. 
 
 Thus it's one step ahead in making changes and is quite fast too.
+
+
+<h2>JSX</h2>
+
+JSX is a markup introduced by React which combines the best of HTML and JS together. By using JSX you can write HTML inside JS and you can easily operate JS using {} expressions. However since JSX is not valid JavaScript it has to be converted into JS using a transpiler - <b>Babel</b>.
